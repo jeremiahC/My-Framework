@@ -1,0 +1,51 @@
+/* line 3, ../sass/buttons.scss */
+.button {
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* line 10, ../sass/buttons.scss */
+.button-large {
+  padding: 20px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* line 17, ../sass/buttons.scss */
+.button-green {
+  background-color: #40c44f;
+}
+/* line 20, ../sass/buttons.scss */
+.button-green:hover {
+  background-color: #34a741;
+}
+
+/* line 25, ../sass/buttons.scss */
+.button-blue {
+  background-color: #165cc5;
+}
+/* line 28, ../sass/buttons.scss */
+.button-blue:hover {
+  background-color: #1350ac;
+}
+
+/* line 33, ../sass/buttons.scss */
+.button-red {
+  background-color: #fc102c;
+}
+/* line 36, ../sass/buttons.scss */
+.button-red:hover {
+  background-color: #eb0f29;
+}
+
+/* line 41, ../sass/buttons.scss */
+.button-gray {
+  background-color: #f2f1f1;
+}
+/* line 44, ../sass/buttons.scss */
+.button-gray:hover {
+  background-color: #d9d8d8;
+}

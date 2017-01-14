@@ -1,0 +1,32 @@
+@import "variables";
+
+.segment{
+	background-color:	$white;
+	border-radius:		$border-radius;
+	width:				$full-width;
+	height:				auto;
+	box-shadow:			$box-shadow;
+	padding:			$padding-default * 2;
+
+	
+}
+
+.segment-green{
+	border-left:		$border-line * 3 solid $green;
+	border-right:		$border-line * 3 solid $green;
+}
+
+.segment-blue{
+	border-left:		$border-line * 3 solid $blue;
+	border-right:		$border-line * 3 solid $blue;
+}
+
+.segment-red{
+	border-left:		$border-line * 3 solid $red;
+	border-right:		$border-line * 3 solid $red;
+}
+
+.segment-black{
+	border-left:		$border-line * 3 solid $black;
+	border-right:		$border-line * 3 solid $black;
+}

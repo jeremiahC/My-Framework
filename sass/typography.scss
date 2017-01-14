@@ -1,0 +1,45 @@
+@import "variables";
+
+@font-face {
+  font-family: "GeosansLight Medium";
+  src: url(../../resources/fonts/GeosansLight.ttf);
+}
+
+body{
+	font-family: 		$font-family-default;
+	font-size: 			$font-size-default;
+	background-color:	$gray-light;
+	src:				$font-src;
+}
+
+h1{
+	font-size: 		$h1-size;
+}
+
+h2{
+	font-size: 		$h2-size;
+}
+
+h3{
+	font-size: 		$h3-size;
+}
+
+h4{
+	font-size: 		$h4-size;
+}
+
+h5{
+	font-size: 		$h5-size;
+}
+
+h6{
+	font-size: 		$h6-size;
+}
+
+.small-text{
+	font-size: 		$font-size-small
+}
+
+.large-text{
+	font-size: 		$font-size-large;
+}

@@ -1,0 +1,48 @@
+@import "variables";
+
+.button{
+	padding: $padding-default * 2;
+	border: 0px;
+	border-radius: $border-radius;
+	cursor: pointer;
+}
+
+.button-large{
+	padding: $padding-input-large;
+	border: 0px;
+	border-radius: $border-radius;
+	cursor: pointer;
+}
+
+.button-green{
+	background-color: $btn-green;
+
+	&:hover{
+		background-color: $hover-button-green;
+	}
+}
+
+.button-blue{
+	background-color: $btn-blue;	
+
+	&:hover{
+		background-color: $hover-button-blue;
+	}
+}
+
+.button-red{
+	background-color: $btn-red;
+
+	&:hover{
+		background-color: $hover-button-red;
+	}
+}
+
+.button-gray{
+	background-color: $btn-gray;
+
+	&:hover{
+		background-color: $hover-button-gray;
+	}
+}
+

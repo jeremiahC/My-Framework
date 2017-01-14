@@ -1,0 +1,20 @@
+/* line 3, ../sass/containers.scss */
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* line 12, ../sass/containers.scss */
+.col-1 {
+  width: 10%;
+}
+
+/* line 16, ../sass/containers.scss */
+.col-2 {
+  width: 20%;
+}
+
+/* line 56, ../sass/containers.scss */
+.col-12 {
+  width: 98%;
+}
