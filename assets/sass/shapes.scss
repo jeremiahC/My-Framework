@@ -1,0 +1,22 @@
+@import "variables";
+
+.circle{
+	width:				100px;
+	height:				100px;
+	background-color: 	$white;
+	font-size:			40px;
+	border-radius:		50px;
+	position:			relative;
+	display: 			inline-block;
+	box-shadow:			$box-shadow;
+
+	span{
+		position:		absolute;
+		top:			30px;
+		left:			40px;
+	}
+}
+
+.blue{
+	background-color:	$blue;
+}

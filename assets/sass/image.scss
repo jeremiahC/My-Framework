@@ -1,0 +1,9 @@
+@import "variables";
+
+.circular-image{
+	border-radius: 	$border-radius * 20;
+}
+
+.rounded-image{
+	border-radius:	$border-radius * 10;
+}

@@ -1,0 +1,40 @@
+/* line 7, ../sass/segments.scss */
+.segment {
+  background-color: #fffcfc;
+  border-radius: 5px;
+  width: 98%;
+  height: auto;
+  box-shadow: 2px 3px 10px 1px #d9d8d8;
+  padding: 25px 50px 25px 50px;
+  position: relative;
+}
+
+/* line 17, ../sass/segments.scss */
+.center {
+  position: absolute;
+  left: 60px;
+}
+
+/* line 22, ../sass/segments.scss */
+.segment-green {
+  border-left: 3px solid #40c44f;
+  border-right: 3px solid #40c44f;
+}
+
+/* line 27, ../sass/segments.scss */
+.segment-blue {
+  border-left: 3px solid #165cc5;
+  border-right: 3px solid #165cc5;
+}
+
+/* line 32, ../sass/segments.scss */
+.segment-red {
+  border-left: 3px solid #fc102c;
+  border-right: 3px solid #fc102c;
+}
+
+/* line 37, ../sass/segments.scss */
+.segment-black {
+  border-left: 3px solid #090909;
+  border-right: 3px solid #090909;
+}

@@ -1,0 +1,41 @@
+@import "variables";
+
+form{
+	clear: 				both;
+}
+
+.field{
+	border: 			0px;
+	border-radius: 		$border-radius;
+	background-color: 	$field-background;
+	padding:			$padding-input-default;
+	margin-top:			10px;
+	width: 				$full-width;
+}
+
+.field-clear{
+	border: 			0px;
+	padding:			$padding-input-default;
+	width: 				$full-width;
+	background-color:	transparent;
+}
+
+.field-green{
+	border-bottom: $border-line * 3 solid $border-color-default;
+}
+
+.field-error{
+	border-bottom: $border-line * 3 solid $border-color-error;
+}
+
+.field-blue{
+	border-bottom: $border-line * 3 solid $border-color-blue;
+}
+
+.field-black{
+	border-bottom: $border-line * 3 solid $border-color-black;
+}
+
+.field-gray{
+	border-bottom: $border-line * 3 solid $border-color-gray;
+}

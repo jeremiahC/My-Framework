@@ -1,0 +1,74 @@
+@import "variables";
+
+.container{
+	margin: 	0 auto;
+	width: 		80%;
+	position:	relative;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+	position:		relative;
+	margin:			$margin-default - 5;
+	margin-top: 	$margin-default * 5;
+	margin-right:	$margin-default * 2;
+	margin-left:	$margin-default * 2;
+	margin-bottom:	$margin-default	* 5;
+	display:		inline-block;
+
+}
+
+.col-1{
+	width: 		10%;
+}
+
+.col-2{
+	width:		18%;
+}
+
+.col-3{
+	width:		26%;
+}
+
+.col-4{
+	width:		34%;
+}
+
+.col-5{
+	width:		42%;
+}
+
+.col-6{
+	width:		50%;
+}
+
+.col-7{
+	width:		58%;
+}
+
+.col-8{
+	width:		66%;
+}
+
+.col-9{
+	width:		74%;
+}
+
+.col-10{
+	width:		82%;
+}
+
+.col-11{
+	width:		90%;
+}
+
+.col-12{
+	width:		98%;
+}
+
+.float-right{
+	float:		right;
+}
+
+.float-left{
+	float:		left;
+}

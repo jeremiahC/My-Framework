@@ -1,0 +1,9 @@
+/* line 3, ../sass/image.scss */
+.circular-image {
+  border-radius: 100px;
+}
+
+/* line 7, ../sass/image.scss */
+.rounded-image {
+  border-radius: 50px;
+}

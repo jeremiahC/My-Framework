@@ -3,9 +3,20 @@
 <html>
 <head>
 	<title>New Creation Koinonia</title>
-	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="assets/stylesheets/style.css">
+	<style>
+		.inline{
+			display: inline-block;
+		}
+		.clearboth{
+			clear: both;
+		}
+	</style>
 </head>
-<body>
+<body class="">
+	<div class="inline">1</div>
+	<div class="inline">1</div>
+
 	<h1 class="large-text">My framework</h1>
 	<h2>by jeremiah caballero</h2>
 	
@@ -17,10 +28,10 @@
 	<h3>Buttons</h3>
 	<!--normal buttons-->
 	<div>
-		<input type="button" class="button button-green" value="Green Button">
-		<input type="button" class="button button-blue" value="Blue Button">
-		<input type="button" class="button button-red" value="Red Button">
-		<input type="button" class="button button-gray" value="Grey Button">
+		<input type="button" class="button button-green col-1" value="Green Button">
+		<input type="button" class="button button-blue col-1" value="Blue Button">
+		<input type="button" class="button button-red col-1" value="Red Button">
+		<input type="button" class="button button-gray col-1" value="Grey Button">
 	</div>
 	
 	<!--large buttons-->
@@ -219,6 +230,46 @@
 		</div>
 	</div>
 
+	<div class="col-2">
+		<div class="segment segment-green">	
+		</div>
+	</div>
+	<div class="col-3">
+		<div class="segment segment-green">	
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="segment segment-green">	
+		</div>
+	</div>
+	<div class="col-5">
+		<div class="segment segment-green">	
+		</div>
+	</div>
+	<div class="col-6">
+		<div class="segment segment-green">	
+		</div>
+	</div>
+	<div class="col-7">
+		<div class="segment segment-green">	
+		</div>
+	</div>
+	<div class="col-8">
+		<div class="segment segment-green">	
+		</div>
+	</div>
+	<div class="col-9">
+		<div class="segment segment-green">	
+		</div>
+	</div>
+	<div class="col-10">
+		<div class="segment segment-green">	
+		</div>
+	</div>
+	<div class="col-11">
+		<div class="segment segment-green">	
+		</div>
+	</div>
 	<div class="col-12">
 		<div class="segment segment-green">	
 		</div>
@@ -227,7 +278,24 @@
 	<h3>Images</h3>
 
 	<div>
-		<img class="image" src="" alt="image">
+		<img class="circular-image" src="images/user.png" alt="image">
+		<img class="image" src="images/user.png" alt="image">
+		<img class="rounded-image" src="images/user.png" alt="image">
+	</div>
+
+	<h3>Shapes</h3>
+
+	<div class="circle">
+		<span>1</span>
+	</div>
+	<div class="circle">
+		<span>2</span>
+	</div>
+	<div class="circle">
+		<span>3</span>
+	</div>
+	<div class="circle">
+		<span>4</span>
 	</div>
 </body>
 </html>

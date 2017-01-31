@@ -1,0 +1,18 @@
+@import "compass/reset";
+
+div{
+	margin: 10px;
+}
+
+div, section, article, header, footer{
+	clear:  both;
+}
+
+@import "typography";
+@import "form";
+@import "buttons";
+@import	"segments";
+@import	"containers";
+@import	"image";
+@import "shapes";
+

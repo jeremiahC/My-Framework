@@ -1,0 +1,22 @@
+/* line 3, ../sass/shapes.scss */
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #fffcfc;
+  font-size: 40px;
+  border-radius: 50px;
+  position: relative;
+  display: inline-block;
+  box-shadow: 2px 3px 10px 1px #d9d8d8;
+}
+/* line 13, ../sass/shapes.scss */
+.circle span {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+/* line 20, ../sass/shapes.scss */
+.blue {
+  background-color: #165cc5;
+}

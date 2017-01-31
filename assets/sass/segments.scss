@@ -1,0 +1,40 @@
+@import "variables";
+
+$p-num:					$padding-default;
+
+$padding-all-sides:		$p-num * 5 $p-num * 10 $p-num * 5 $p-num * 10;
+
+.segment{
+	background-color:	$white;
+	border-radius:		$border-radius;
+	width:				$full-width;
+	height:				auto;
+	box-shadow:			$box-shadow;
+	padding:			$padding-all-sides;
+	position:			relative;
+}
+
+.center{
+	position:			absolute;
+	left:				60px;
+}
+
+.segment-green{
+	border-left:		$border-line * 3 solid $green;
+	border-right:		$border-line * 3 solid $green;
+}
+
+.segment-blue{
+	border-left:		$border-line * 3 solid $blue;
+	border-right:		$border-line * 3 solid $blue;
+}
+
+.segment-red{
+	border-left:		$border-line * 3 solid $red;
+	border-right:		$border-line * 3 solid $red;
+}
+
+.segment-black{
+	border-left:		$border-line * 3 solid $black;
+	border-right:		$border-line * 3 solid $black;
+}
