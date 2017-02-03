@@ -1,0 +1,21 @@
+/* line 3, ../sass/sidebar.scss */
+.sidebar {
+  margin: 5px;
+}
+/* line 5, ../sass/sidebar.scss */
+.sidebar ul {
+  background-color: #fffcfc;
+}
+/* line 7, ../sass/sidebar.scss */
+.sidebar ul li {
+  display: inline-block;
+  padding: 5px 20 5px 0;
+}
+/* line 11, ../sass/sidebar.scss */
+.sidebar ul li a {
+  text-decoration: none;
+}
+/* line 17, ../sass/sidebar.scss */
+.sidebar .green {
+  border-bottom: 3px solid #40c44f;
+}

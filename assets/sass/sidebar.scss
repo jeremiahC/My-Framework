@@ -1,0 +1,21 @@
+@import "variables";
+
+.sidebar{
+  margin:                     $margin-default;
+  ul{
+    background-color:           $white;
+    li{
+      display:                  inline-block;
+      padding:                  $padding-default 20 $padding-default 0;
+
+      a{
+        text-decoration:        none;
+      }
+    }
+  }
+
+  .green{
+    border-bottom:              $border-line * 3 solid $border-color-default;
+  }
+
+}
