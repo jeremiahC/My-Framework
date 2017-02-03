@@ -1,0 +1,53 @@
+@import "variables";
+
+.navbar{
+  ul{
+    box-shadow:                 $box-shadow;
+    background-color:           $white;
+    clear:                      both;
+    li{
+      display:                  inline-block;
+      padding:                  $padding-default *4 20px $padding-default *4 20px;
+
+      &:hover{
+        background-color:       $green;
+      }
+      a{
+        text-decoration:        none;
+        color:                  $black;
+        font-size:              $font-size-default+4;
+        &:hover{
+          color:                $white;
+        }
+      }
+    }
+  }
+
+  .green{
+    border-bottom:              $border-line * 3 solid $border-color-default;
+  }
+
+}
+
+.sidebar{
+  ul{
+    position:                   fixed;
+    background-color:           $green;
+    width:                      25%;
+    height:                     100%;
+    box-shadow:                 $box-shadow;
+    overflow:                   auto;
+    li{
+      a{
+        display:                block;
+        text-decoration:        none;
+        color:                  #000;
+        padding:                15px 200px 15px 10px;
+
+        &:hover{
+          background-color:     #f9f9f9;
+        }
+      }
+    }
+  }
+}

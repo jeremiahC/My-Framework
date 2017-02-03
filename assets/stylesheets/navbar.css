@@ -1,0 +1,50 @@
+/* line 4, ../sass/navbar.scss */
+.navbar ul {
+  box-shadow: 2px 3px 10px 1px #d9d8d8;
+  background-color: #fffcfc;
+  clear: both;
+}
+/* line 8, ../sass/navbar.scss */
+.navbar ul li {
+  display: inline-block;
+  padding: 20px 20px 20px 20px;
+}
+/* line 12, ../sass/navbar.scss */
+.navbar ul li:hover {
+  background-color: #40c44f;
+}
+/* line 15, ../sass/navbar.scss */
+.navbar ul li a {
+  text-decoration: none;
+  color: #090909;
+  font-size: 18px;
+}
+/* line 19, ../sass/navbar.scss */
+.navbar ul li a:hover {
+  color: #fffcfc;
+}
+/* line 26, ../sass/navbar.scss */
+.navbar .green {
+  border-bottom: 3px solid #40c44f;
+}
+
+/* line 33, ../sass/navbar.scss */
+.sidebar ul {
+  position: fixed;
+  background-color: #40c44f;
+  width: 25%;
+  height: 100%;
+  box-shadow: 2px 3px 10px 1px #d9d8d8;
+  overflow: auto;
+}
+/* line 41, ../sass/navbar.scss */
+.sidebar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 15px 200px 15px 10px;
+}
+/* line 47, ../sass/navbar.scss */
+.sidebar ul li a:hover {
+  background-color: #f9f9f9;
+}
