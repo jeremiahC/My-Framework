@@ -1,6 +1,6 @@
 @import "variables";
 
-.button{
+.button, .button-link{
 	padding: $padding-default * 2;
 	border: 0px;
 	border-radius: $border-radius;
@@ -10,6 +10,11 @@
 	font-size:	25px;
 	color:		$white;
 	font-family:	$font-family-default;
+}
+
+.button-link{
+	text-decoration: none;
+	text-align: center;
 }
 
 .button-large{

@@ -1,56 +1,62 @@
-/* line 3, ../sass/typography.scss */
+@font-face {
+  font-family: GeosansLight;
+  src: url("../fonts/geosans/GeosansLight.eot?") format("eot"), url("../fonts/geosans/GeosansLight.woff") format("woff"), url("../fonts/geosans/GeosansLight.ttf") format("truetype"), url("../fonts/geosans/GeosansLight.svg#GeosansLight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 10, ../sass/typography.scss */
 body {
-  font-family: "GeosansLight Medium";
+  font-family: "GeosansLight";
   font-size: 14px;
   background-color: #f2f1f1;
 }
 
-/* line 9, ../sass/typography.scss */
+/* line 16, ../sass/typography.scss */
 h1 {
   font-size: 36px;
 }
 
-/* line 13, ../sass/typography.scss */
+/* line 20, ../sass/typography.scss */
 h2 {
   font-size: 30px;
 }
 
-/* line 17, ../sass/typography.scss */
+/* line 24, ../sass/typography.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 21, ../sass/typography.scss */
+/* line 28, ../sass/typography.scss */
 h4 {
   font-size: 18px;
 }
 
-/* line 25, ../sass/typography.scss */
+/* line 32, ../sass/typography.scss */
 h5 {
   font-size: 14px;
 }
 
-/* line 29, ../sass/typography.scss */
+/* line 36, ../sass/typography.scss */
 h6 {
   font-size: 12px;
 }
 
-/* line 33, ../sass/typography.scss */
+/* line 40, ../sass/typography.scss */
 .small-text {
   font-size: 12px;
 }
 
-/* line 37, ../sass/typography.scss */
+/* line 44, ../sass/typography.scss */
 .medium-text {
   font-size: 30px;
 }
 
-/* line 41, ../sass/typography.scss */
+/* line 48, ../sass/typography.scss */
 .large-text {
   font-size: 50px;
 }
 
-/* line 45, ../sass/typography.scss */
+/* line 52, ../sass/typography.scss */
 .text-center {
   text-align: center;
 }
