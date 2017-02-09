@@ -33,10 +33,14 @@
   ul{
     position:                   fixed;
     background-color:           $green;
-    width:                      25%;
+    width:                      20%;
     height:                     100%;
     box-shadow:                 $box-shadow;
     overflow:                   auto;
+    .label{
+      padding:                  $padding-default * 2;
+      background-color:         $dark-green;
+    }
     li{
       a{
         display:                block;
@@ -53,7 +57,6 @@
 }
 
 .content {
-  margin-left:                  25% ;
-  padding:                      1px 16px;
-  position:                     absolute;
+  margin-left:                  25%;
+  padding:                      1px auto;
 }
